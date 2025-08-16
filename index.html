@@ -1,0 +1,64 @@
+<html>
+   <style>
+body{
+   
+    background-color: rgb(5, 184, 5);
+    text-align: center;
+}
+div{
+    background-color: white;
+    color: rgb(5, 184, 5);
+}
+.box{
+border: 3px solid rgb(1, 75, 1);
+color: rgb(5, 184, 5);
+}
+.box:hover{
+    background-color: rgb(10, 78, 10);
+    color: beige;
+}
+.f{
+    border: 5px solid rgb(1, 75, 1);
+    background-color: rgb(5, 184, 5);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+   
+}
+   </style>
+<head>
+    <title>TeenVerse</title>
+</head>    
+<body>
+   <div> <h1>TeenVerse</h1></div>
+   <div > <h2>Survey Form</h2></div>
+<form>
+   <div class="f"><label for="fn" >First Name</label><br>
+<input type="text" id="fn" placeholder="John" class="box"><br><br>
+<label for="ln">Last Name</label><br>
+<input type="text" id="ln" placeholder="Doe" class="box"><br><br>
+<label for="email"> Email</label><br>
+<input type="email" id="email" placeholder="johndoe12@gmail.com" class="box"><br><br>
+<label for="dob" >Date of Birth</label><br>
+<input type="date" id="dob" class="box"><br><br>
+<p>How likely is that you would recommend TeenVerse to a friend?</p>
+<input type="checkbox" id="a" class="box">
+<label for="a">Definitely</label> <br>
+<input type="checkbox" id="b" class="box">
+<label for="b">Maybe</label><br>
+<input type="checkbox" id="c" class="box">
+<label for="c">Not sure</label><br><br>
+<label for="secret">What do you like most in TeenVerse?</label><br>
+<textarea id="secret" class="box"></textarea><br><br>
+<label for="secret">What do you think we should improve in our classes to make them more fun?</label><br>
+<textarea id="secret" class="box" placeholder="Give your suggestion here..."></textarea><br><br>
+<input type="submit" value="Submit" class="box"></div>
+</form>
+
+
+
+
+</body>
+</html>
